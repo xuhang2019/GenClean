@@ -9,6 +9,10 @@ The architecture of our model(FedFDD) is shown as below:
 
 ## Setup
 
+### **If you only want to use the hdf5reader, open the `icmplus-hdf5-reader` folder.**
+
+---
+
 ### 1. Create conda/mamaba environment(Optional)
 ```
 mamba create -n GenClean -y python=3.9.16
@@ -18,7 +22,7 @@ mamba activate GenClean
 ### 2. Install dependecies
 Install the required packages
 ```
-pip install -r requirements_cpu.txt
+pip install -r requirements-cpu.txt
 ```
 
 ### 3. Prepare the data and Train (see the Example Usage)
