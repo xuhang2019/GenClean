@@ -1,11 +1,14 @@
+.vscode/
+
 node_modules
 data/
 results/
 results_tbl/
 logs/
-.vscode/
 cursor/
 figs/
+ckpt/
+wandb/
 
 *.log
 *.out
